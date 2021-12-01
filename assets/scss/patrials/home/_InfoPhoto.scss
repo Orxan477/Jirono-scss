@@ -1,0 +1,41 @@
+#InfoPhoto{
+   margin-top: $size*13;
+    row{
+       height: $size*3;
+   }
+
+    h2{
+    text-transform: capitalize;
+    font-size: ($font*3);
+}
+    p{
+       margin: 15px 0;
+       font-size: ($font*2);
+       font-weight: 500;
+   }
+    .buttons{
+    display: flex;
+    justify-content: flex-start;
+     & button{
+        border: 1px solid $maincolor;
+        text-decoration: none;
+        margin: 0 1%;
+    }
+    
+        .learnMore:hover{
+            background-color: $maincolor;
+            color: $primarycolor;
+        }
+    
+   }
+    .images{
+        display: grid; 
+  grid-auto-flow: column; 
+  grid-template-columns: 250px 300px; 
+  grid-template-rows: 350px 200px; 
+  gap: 10px 10px; 
+  grid-template-areas: 
+    ". ."
+    ". ."; 
+}
+}

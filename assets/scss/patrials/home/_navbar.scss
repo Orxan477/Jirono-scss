@@ -1,0 +1,57 @@
+#Navbar{
+// position: fixed;
+// left: 0;
+// right: 0;
+// z-index: 9999;
+    .headerNav{
+        display: flex;
+        align-items: center;
+        height: $size*8;
+        background-color: $primarycolor;
+        & .iconCol{
+           display: flex;
+           justify-content: center;
+        }
+        
+    }
+    .linkCol{
+        // margin: 0 1%;
+        display: flex;
+            align-items: center;
+            justify-content: center;
+    
+        & ul{
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        & li{
+            margin: 0 10%;
+            font-size: ($font*2);
+        }
+        & a{
+            text-decoration: none;
+
+        }
+    }
+}
+.buttons{
+    display: flex;
+    justify-content: flex-end;
+   
+    & button{
+        padding: 0.3rem 1.5rem;
+        border: 1px solid $maincolor;
+        text-decoration: none;
+        margin: 0 1%;
+    }
+    & .signinBut:hover{
+        background-color: $maincolor;
+        color: $primarycolor;
+    }
+    & .signupBut:hover{
+        background-color: $primarycolor;
+        color:$maincolor;
+    }
+}
+}

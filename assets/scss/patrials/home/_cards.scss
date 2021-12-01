@@ -1,0 +1,23 @@
+#Cards{
+    .infoCards{
+        display: flex;
+        align-items: center;
+        margin-top: $size*5;
+        height: $size*45;
+        background-color: $firstcolor;
+    }
+    .card{
+        // height: $size*20;
+        vertical-align: top;
+        display: flex;
+        justify-content: center;
+    }
+    .logoCloud{
+        margin-top: 30px;
+    align-self: center;
+    }
+    .cardName{
+        display: flex;
+        justify-content: center;
+    }
+}
