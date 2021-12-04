@@ -11,13 +11,24 @@
         vertical-align: top;
         display: flex;
         justify-content: center;
+    
+     & .logoCloud{
+        border: 1px solid black;
+        background-color: $roundback;
+        border-radius: 75%;
+        padding: 20px;
+        margin: $size*2 0;
+        align-self: center;
     }
-    .logoCloud{
-        margin-top: 30px;
-    align-self: center;
-    }
+}
     .cardName{
         display: flex;
         justify-content: center;
+        margin-bottom: $size*2;
+    }
+    .infoText{
+        display: flex;
+        align-items: center;
+        text-align: center;
     }
 }

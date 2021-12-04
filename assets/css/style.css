@@ -52,10 +52,31 @@ body {
 #Navbar .linkCol ul li {
   margin: 0 10%;
   font-size: 20px;
+  font-family: "Roboto", sans-serif;
 }
 
 #Navbar .linkCol ul a {
   text-decoration: none;
+}
+
+#Navbar .starter .edit {
+  display: inherit;
+}
+
+#Navbar .starter .pagenav {
+  margin-left: 120px;
+}
+
+#Navbar .starter ul {
+  list-style: none;
+}
+
+#Navbar .starter ul a {
+  text-decoration: none;
+}
+
+#Navbar .starter .displayNone {
+  display: none;
 }
 
 #Navbar .buttons {
@@ -95,12 +116,18 @@ body {
 #InfoPhoto h2 {
   text-transform: capitalize;
   font-size: 30px;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.93px;
+  font-weight: 400;
 }
 
 #InfoPhoto p {
   margin: 15px 0;
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 300;
+  font-family: "Roboto", sans-serif;
+  color: #585CE9;
+  letter-spacing: 1px;
 }
 
 #InfoPhoto .buttons {
@@ -133,6 +160,9 @@ body {
       grid-template-rows: 350px 200px;
   gap: 10px 10px;
       grid-template-areas: ". ." ". .";
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
 }
 
 #Cards .infoCards {
@@ -144,7 +174,7 @@ body {
           align-items: center;
   margin-top: 50px;
   height: 450px;
-  background-color: #d1caca;
+  background-color: #ebecee;
 }
 
 #Cards .card {
@@ -157,8 +187,12 @@ body {
           justify-content: center;
 }
 
-#Cards .logoCloud {
-  margin-top: 30px;
+#Cards .card .logoCloud {
+  border: 1px solid black;
+  background-color: #eeecec;
+  border-radius: 75%;
+  padding: 20px;
+  margin: 20px 0;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
@@ -171,5 +205,233 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin-bottom: 20px;
+}
+
+#Cards .infoText {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+#cloudServices {
+  background-color: #ebecee;
+  padding-top: 30px;
+  font-family: "Roboto", sans-serif;
+  padding-bottom: 50px;
+}
+
+#cloudServices .cloud {
+  font-weight: 400;
+  font-size: 30px;
+  letter-spacing: 1.75px;
+  height: 45px;
+  margin-bottom: 10px;
+}
+
+#cloudServices .cloudText {
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 28px;
+  color: #585CE9;
+}
+
+#cloudServices .textBox {
+  margin-bottom: 25px;
+  width: 50%;
+  background-color: white;
+  height: 40px;
+  line-height: 40px;
+  font-size: 14px;
+  font-weight: 400;
+  margin-right: 25px;
+}
+
+#cloudServices .cloudImage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+#designDevelopment {
+  background-color: #ebecee;
+  padding-top: 30px;
+  font-family: "Roboto", sans-serif;
+  padding-bottom: 50px;
+}
+
+#designDevelopment .cloud {
+  font-weight: 400;
+  font-size: 30px;
+  letter-spacing: 1.75px;
+  height: 45px;
+  margin-bottom: 10px;
+}
+
+#designDevelopment .cloudText {
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 28px;
+  color: #585CE9;
+}
+
+#designDevelopment .textBox {
+  margin-bottom: 25px;
+  width: 50%;
+  background-color: white;
+  height: 40px;
+  line-height: 40px;
+  font-size: 14px;
+  font-weight: 400;
+  margin-right: 25px;
+}
+
+#designDevelopment .cloudImage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+#infoCompany {
+  background-image: url(http://demo.tempload.com/jirono/assets/images/photos/parallax.jpg);
+  color: white;
+  width: 100%;
+  height: 300px;
+  padding: 72px 0;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#infoCompany .backcolor {
+  background-color: transparent;
+  border: none;
+}
+
+#infoCompany .number {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#infoCompany .workName {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 20px;
+}
+
+#infoCompany .workInfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#ourTeam {
+  background-color: #ebecee;
+  padding-top: 50px;
+  font-family: "Roboto", sans-serif;
+}
+
+#ourTeam h2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#ourTeam p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  max-width: 500px;
+  margin: 20px auto;
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+#ourTeam .card1 {
+  height: 350px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px solid black;
+  background-color: white;
+  margin: 0 20px;
+}
+
+#ourTeam .card1 .name {
+  background-color: teal;
+  margin-bottom: 20px;
+}
+
+#ourTeam .card1 h3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 20px;
+}
+
+#ourTeam .card1 ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  font-size: 18px;
+}
+
+#ourTeam .image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#ourTeam .image img {
+  border-radius: 75%;
+  width: 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 /*# sourceMappingURL=style.css.map */

@@ -28,12 +28,32 @@
         & li{
             margin: 0 10%;
             font-size: ($font*2);
+            font-family: $family;
         }
         & a{
             text-decoration: none;
 
         }
     }
+   
+}
+.starter{
+    .edit{
+        display: inherit;
+    }
+    .pagenav{
+        margin-left: 120px;
+    }
+    ul{
+        list-style: none;
+        & a{
+            text-decoration: none;
+        }
+    }
+   .displayNone{
+       display: none;
+
+   }
 }
 .buttons{
     display: flex;

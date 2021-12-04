@@ -1,0 +1,36 @@
+#cloudServices{
+    background-color: $firstcolor;
+    padding-top: $size*3;
+    font-family: $family;
+    padding-bottom: $size*5;
+    .cloud{
+        font-weight: 400;
+        font-size: $font*3;
+        letter-spacing: 1.75px;
+        height: ($size*4)+5;
+        margin-bottom: $size;
+    }
+    .cloudText{
+        font-weight: 400;
+        font-size: $font+6;
+        letter-spacing: 1px;
+        line-height: ($size*2)+8;
+        color: $maincolor;
+    }
+    .textBox{
+        // display: block;
+        margin-bottom: ($size*2)+5;
+        width: 50%;
+        background-color: $primarycolor;
+        height: $size*4;
+        line-height: $size*4;
+        font-size: $size+4;
+        font-weight: 400;
+        margin-right: ($size*2)+5;
+    }
+    .cloudImage{
+        display: flex;
+        justify-content: end;
+    }
+    }
+    

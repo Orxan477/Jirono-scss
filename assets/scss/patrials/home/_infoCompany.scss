@@ -1,0 +1,29 @@
+#infoCompany{
+    background-image: url(http://demo.tempload.com/jirono/assets/images/photos/parallax.jpg);
+    // background-color: violet;
+    color: white;
+    width: 100%;
+    height: 300px;
+    padding: 72px 0;
+    background-attachment: fixed;
+    background-size: cover;
+    .backcolor{
+        background-color: transparent;
+        border: none;
+    }
+    .number{
+        display: flex;
+        justify-content: center;
+    }
+    .workName{
+        display: flex;
+        justify-content: center;
+        margin-bottom: $size*2;
+    }
+    .workInfo{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,61 @@
+#ourTeam{
+    background-color: $firstcolor;
+    padding-top: $size*5;
+    font-family: $family;
+    & h2{
+        display: flex;
+        justify-content: center;
+    }
+    & p{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        max-width: $size*50;
+        margin: $size*2 auto;
+        font-size: $size+8;
+        margin-bottom: 40px;
+    }
+    .card1{
+        height: 350px;
+        display: flex;
+        border: 1px solid black; 
+       background-color: white;
+       margin: 0 20px;
+       & .name{
+           background-color: teal;
+           margin-bottom: 20px;
+       }
+    
+     & h3{
+       display: flex;
+       justify-content: center;
+       font-size: $font*2;
+    }
+    
+    //  & p{
+    //     display: flex;
+    //     justify-content: center;
+    //     text-align: center;
+    //     max-width: $size*50;
+    //     // margin: $size*2 auto;
+    //     font-size: $size+8;
+    // }
+    & ul{
+        list-style: none;
+        display: flex;
+        padding: 0;
+        justify-content: space-around;
+        align-content: center;
+        font-size: 18px;
+    }
+}
+.image{
+    display: flex;
+    justify-content: center;
+    & img{
+    border-radius: 75%;
+    width: 120px;
+    display: flex;
+    }
+}
+}

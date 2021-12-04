@@ -7,11 +7,17 @@
     h2{
     text-transform: capitalize;
     font-size: ($font*3);
+    font-family: $family;
+    letter-spacing: 0.93px;
+    font-weight: 400;
 }
     p{
        margin: 15px 0;
        font-size: ($font*2);
-       font-weight: 500;
+       font-weight: 300;
+       font-family: $family;
+       color: $maincolor;
+       letter-spacing: 1px;
    }
     .buttons{
     display: flex;
@@ -29,7 +35,7 @@
     
    }
     .images{
-        display: grid; 
+        display: grid;
   grid-auto-flow: column; 
   grid-template-columns: 250px 300px; 
   grid-template-rows: 350px 200px; 
@@ -37,5 +43,6 @@
   grid-template-areas: 
     ". ."
     ". ."; 
+    justify-content:end;
 }
 }
