@@ -17,16 +17,60 @@
         line-height: ($size*2)+8;
         color: $maincolor;
     }
+    .service{
+        width: 100%;
+        margin: auto;
+        display: inline-block;
+        height: 40px;
+        line-height: 40px;
+        text-decoration: none;
+        border-radius: 5px;
+        background: #fff;
+        margin-bottom: 20px;
+        font-weight: 400;
+        font-size: 14px;
+        letter-spacing: 0.88px;
+        outline: none !important;
+        cursor: pointer;
+        position: relative;
+        overflow: hidden;
+    }
+        
+             .service::after{
+                content: '';
+                position: absolute;
+                width: 70%;
+                height: 100px;
+                left: -70px;
+                top: 0px;
+                background: #e4eef8;
+                -webkit-transform: rotate(60deg);
+                transform: rotate(60deg);
+                -webkit-transition: all 0.3s ease 0s;
+                transition: all 0.3s ease 0s;
+                
+        }
+        .service:hover::after, .service.active::after {
+            height: 120px;
+            background: $maincolor;
+            text-transform: none;
+        }
     .textBox{
         // display: block;
         margin-bottom: ($size*2)+5;
         width: 50%;
-        background-color: $primarycolor;
+        max-width: 100%;
         height: $size*4;
         line-height: $size*4;
         font-size: $size+4;
         font-weight: 400;
         margin-right: ($size*2)+5;
+        & span{
+            margin-left: 30%;
+        }
+        & a{
+            color: $textcolor
+        }
     }
     .cloudImage{
         display: flex;

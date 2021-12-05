@@ -1,0 +1,87 @@
+#pricingPlans{
+background-color: $firstcolor;
+padding-bottom: $size*10;
+padding-top: $size*5;
+font-family: $family;
+& h2{
+    margin-top: $size*12;
+    display: flex;
+    justify-content: center;
+}
+& .ourInfo{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    max-width: $size*50;
+    margin: $size*2 auto;
+    font-size: $size+8;
+    margin-bottom: $size*4;
+}
+.card1{
+    display: flex; 
+    border-radius: $size/2;
+   background-color: white;
+
+   .price1{
+    height: $size*10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: $font+8;
+    border: 1px solid gainsboro;
+   }
+   .count{
+    font-size: $font+8;
+   }
+   .price2{
+    height: $size*7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: $font+8;
+    color: $maincolor;
+   }
+& ul{
+    list-style: none;
+    display: flex;
+    padding: 0;
+    justify-content: space-around;
+    align-content: center;
+    font-size: $size+8;
+}
+}
+.infoCard1{
+    .text{
+        padding: 0;
+        margin: 0;
+    text-align: center;
+    max-width: $size*50;
+    margin: 0 $size*6;
+    // font-size: $size+4;
+    // margin-bottom: 40px;
+    & .text3{
+        margin-bottom: $size*3;
+    }
+    & .text2{
+        text-decoration: line-through;
+        color: rgb(205, 214, 205);
+    }
+    }
+
+    .priceButton{
+        display: flex;
+        justify-content: center;
+        margin-bottom: $size;
+    }
+    
+}
+.logos{
+    display: flex;
+    justify-content: center;
+    h3{
+        border: 1px solid black;
+        border-radius: 50%;
+        padding: $size+5;
+    }
+}
+}

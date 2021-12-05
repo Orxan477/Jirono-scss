@@ -1,0 +1,36 @@
+#blogPosts{
+background-color: $firstcolor;
+padding-bottom: $size*10;
+padding-top: $size*5;
+font-family: $family;
+& h2{
+    margin-top: $size*12;
+    display: flex;
+    justify-content: center;
+}
+& .ourInfo{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    max-width: $size*50;
+    margin: $size*2 auto;
+    font-size: $size+8;
+    margin-bottom: $size*4;
+}
+.row{
+    .info{
+        color: $textcolor;
+    }
+    .info:hover{
+        text-decoration: none;
+    }
+    .about{
+        text-align: center;
+    }
+    .buttons{
+        display: flex;
+        justify-content: center;
+        margin-bottom: $size;
+    }
+}
+}

@@ -1,0 +1,48 @@
+#foot{
+    background-color: $maincolor;
+    height: 270px;
+    font-family: $family;
+    .text{
+        margin-top: 30px;
+        color: $primarycolor;
+        font-weight: 400;
+        font-size: $size+4;
+        line-height: ($size*2)+6;
+        letter-spacing: 0.88px;
+    }
+     .text1{
+        font-size: 16px;
+        margin-top: 0;
+        
+     }
+      .adress{
+        color: $primarycolor;
+        font-size: 14px;
+    }
+          ul {
+             list-style: none;
+            & li{
+                padding: 0;
+              font-size: 14px;
+            line-height: 30px;
+            
+            
+              a{
+                color: $primarycolor;
+              }
+              a:hover{
+                  text-decoration: none;
+              }
+             
+            }
+        }
+        a:hover span{
+          transition: .5s;
+          padding-left: 5%;
+          }
+.pad{
+  padding: 0;
+}
+        
+        
+}

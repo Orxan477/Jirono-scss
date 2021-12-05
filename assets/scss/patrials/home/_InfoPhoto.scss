@@ -25,7 +25,6 @@
      & button{
         border: 1px solid $maincolor;
         text-decoration: none;
-        margin: 0 1%;
     }
     
         .learnMore:hover{
@@ -44,5 +43,13 @@
     ". ."
     ". ."; 
     justify-content:end;
+    
+    .image{
+        transition: .5s;
+    }
+    .image:hover{
+        transform: scale(1.1) ;
+        z-index: 1;
+    }
 }
 }

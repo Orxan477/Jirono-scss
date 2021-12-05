@@ -6,20 +6,32 @@
         height: $size*45;
         background-color: $firstcolor;
     }
+    .cardh{
+        transition: .5s;
+    }
+    
+    .cardh:hover{
+        transform: scale(1.1);
+        z-index: 1;
+        background-color: $maincolor;
+        color: $primarycolor;
+    }
     .card{
         // height: $size*20;
         vertical-align: top;
         display: flex;
         justify-content: center;
+        
     
      & .logoCloud{
-        border: 1px solid black;
+        color: $maincolor;
         background-color: $roundback;
         border-radius: 75%;
         padding: 20px;
         margin: $size*2 0;
         align-self: center;
     }
+    
 }
     .cardName{
         display: flex;

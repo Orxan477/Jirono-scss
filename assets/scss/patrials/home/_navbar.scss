@@ -15,10 +15,9 @@
         
     }
     .linkCol{
-        // margin: 0 1%;
         display: flex;
-            align-items: center;
-            justify-content: center;
+        align-items: center;
+        justify-content: center;
     
         & ul{
         list-style: none;
@@ -26,9 +25,12 @@
         flex-direction: row;
         justify-content: center;
         & li{
-            margin: 0 10%;
+            padding: 0 $size*2;
             font-size: ($font*2);
             font-family: $family;
+            & span{
+                margin-right: 5px
+            }
         }
         & a{
             text-decoration: none;
@@ -39,18 +41,32 @@
 }
 .starter{
     .edit{
-        display: inherit;
-    }
-    .pagenav{
-        margin-left: 120px;
-    }
-    ul{
-        list-style: none;
-        & a{
-            text-decoration: none;
+        // display: inherit;
+        padding: 0;
+        & .morenav{
+           & ul{
+                margin-left: $size*2;
+                & a{
+                    text-decoration: none;
+                }
+            }
+
         }
     }
+    .pagenav{
+        & ul{
+            margin-left: $size*15;
+            & a{
+                text-decoration: none;
+            }
+        }
+    }
+    ul{
+        padding: 0;
+        list-style: none;
+    }
    .displayNone{
+      
        display: none;
 
    }
