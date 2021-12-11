@@ -1,6 +1,5 @@
 #infoCompany{
     background-image: url(http://demo.tempload.com/jirono/assets/images/photos/parallax.jpg);
-    // background-color: violet;
     color: white;
     width: 100%;
     height: 300px;
@@ -21,7 +20,6 @@
     .numberh:hover{
         transform: scale(1.1);
         z-index: 1;
-        // margin-bottom: 15px;
     }
     .workName{
         display: flex;

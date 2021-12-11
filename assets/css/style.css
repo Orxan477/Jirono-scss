@@ -327,11 +327,17 @@ body {
 }
 
 #cloudServices .textBox span {
-  margin-left: 30%;
+  margin-left: 20%;
 }
 
 #cloudServices .textBox a {
   color: black;
+}
+
+#cloudServices .textBox .ox {
+  position: relative;
+  z-index: 2;
+  margin-left: 20px;
 }
 
 #cloudServices .cloudImage {
@@ -422,6 +428,12 @@ body {
 
 #designDevelopment .textBox a {
   color: black;
+}
+
+#designDevelopment .textBox .ox {
+  position: relative;
+  z-index: 2;
+  margin-left: 20px;
 }
 
 #designDevelopment .cloudImage {

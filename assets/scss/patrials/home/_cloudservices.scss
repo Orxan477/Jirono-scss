@@ -3,6 +3,7 @@
     padding-top: $size*3;
     font-family: $family;
     padding-bottom: $size*5;
+
     .cloud{
         font-weight: 400;
         font-size: $font*3;
@@ -65,10 +66,15 @@
         font-weight: 400;
         margin-right: ($size*2)+5;
         & span{
-            margin-left: 30%;
+            margin-left: 20%;
         }
         & a{
             color: $textcolor
+        }
+        .ox{
+            position: relative;
+            z-index: 2;
+            margin-left: 20px;
         }
     }
     .cloudImage{
